@@ -33,4 +33,5 @@ body{
   .tag4{
     @apply bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-lg p-1 text-blue-900 px-2 py-1
   }
+  
 }

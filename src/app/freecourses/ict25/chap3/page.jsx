@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
 import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
+import { light } from "@mui/material/styles/createPalette";
 
 const API_KEY = 'AIzaSyBRxPt8NOlqBUKrNvUtHeuCjs9Z3MWUzrs';
 const playlistId = 'PLxRwi0lKBoQPKMzWpx3qzuAGb9U2Exk90';
@@ -52,12 +53,13 @@ function App() {
 
       <h1 className='text-center font-extralight italic mt-1 text-2xl text-purple-400'>Chapter 3</h1><br />
 
-      {loading && <p>Loading...</p>}
+      {loading && <p className=" flex justify-center items-center text-white">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
         <div className="w-full h-full flex flex-wrap justify-center gap-5  ">
           {currentVideos.map(video => (
             <div key={video.id} className="rounded-xl ring-1 ring-gray-600  hover:ring-blue-700 shadow-md shadow-blue-600 lg:w-[480px]">
+
               <section className='w-full flex justify-center '>
                 <ReactPlayer
                   url={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
@@ -65,9 +67,12 @@ function App() {
                   width={isLargeScreen ? 475 : 340}
                   height={isLargeScreen ? 290 : 230}
                   lazy={true} 
-                  
-                  
+                  light={true}
+                 playing={true}
+
+                
                 />
+
               </section>
             </div>
           ))}
