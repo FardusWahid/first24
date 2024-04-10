@@ -59,14 +59,16 @@ function App() {
           {currentVideos.map(video => (
             <div key={video.id} className="rounded-xl ring-1 ring-gray-600  hover:ring-blue-700 shadow-md shadow-blue-600 lg:w-[480px]">
               <section className='w-full flex justify-center '>
-                <ReactPlayer
+              <ReactPlayer
                   url={`https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}`}
                   controls={true}
                   width={isLargeScreen ? 475 : 340}
                   height={isLargeScreen ? 290 : 230}
                   lazy={true} 
-                  
-                  
+                  light={true}
+                 playing={true}
+
+                
                 />
               </section>
             </div>
