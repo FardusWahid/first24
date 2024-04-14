@@ -32,8 +32,19 @@ link="https://acsengineering.netlify.app/"
      classamount="200"
      price="299"
      alt="frb"   
-     link="https://acscourses.netlify.app/frb"       
+     link="https://acscourses.netlify.app/frb"    
+     
      />
+
+<Outlet
+image="/ielts.jpeg"
+title="IELTS Course by Munzereen Shahid"
+classamount="50"
+price="49"
+alt="ielts"
+link="/freecourses/ielts"
+/>
+
     <Outlet    
      image="/ict.jpg"
      title="ICT DE-CODER 2025"
@@ -48,14 +59,17 @@ link="https://acsengineering.netlify.app/"
      title="ACS varsity admission 2023"
      classamount="140"
      price="299"
-     alt="23"          
+     alt="23" 
+     link="https://www.facebook.com/free.courses.vercel/"         
      />
    <Outlet    
      image="/eng23.jpg"
      title="ACS Engineering 2023"
      classamount="120"
      price="199"
-     alt="23"          
+     alt="23"
+     link="https://www.facebook.com/free.courses.vercel/"         
+          
      />
 
     <Outlet    
