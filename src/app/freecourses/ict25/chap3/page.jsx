@@ -69,6 +69,7 @@ function App() {
                   lazy={true} 
                   light={true}
                  playing={true}
+                 
 
                 
                 />

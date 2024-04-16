@@ -6,6 +6,17 @@ export default function Home(){
      <Navbar/>
 
      <section className="flex flex-wrap gap-4 m-1 md:m-10 justify-between">
+    
+    
+     <Outlet     
+image="/code.png"
+title="Complete WebDev -Programming Hero"
+classamount="400"
+price="299"
+alt="code ur career"
+link="https://programmingherro.netlify.app"
+    />
+    
      <Outlet     
 image="/eng24.jpg"
 title="ACS Engineering Private Batch 2024"
