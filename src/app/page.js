@@ -61,9 +61,9 @@ link="https://www.facebook.com/free.courses.vercel/"
 image="/ielts.jpeg"
 title="IELTS Course by Munzereen Shahid"
 classamount="50"
-price="49"
+price="100"
 alt="ielts"
-link="/freecourses/ielts"
+link="https://www.facebook.com/free.courses.vercel/"
 />
 
     <Outlet    
