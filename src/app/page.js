@@ -63,7 +63,7 @@ title="IELTS Course by Munzereen Shahid"
 classamount="50"
 price="100"
 alt="ielts"
-link="https://www.facebook.com/free.courses.vercel/"
+link="https://10msielts.netlify.app/"
 />
 
     <Outlet    
