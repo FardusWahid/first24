@@ -47,15 +47,6 @@ link="https://www.facebook.com/free.courses.vercel/"
      />
 
 
-<Outlet    
-     image="/frb.jpg"
-     title="HSC Final revision 24"
-     classamount="200"
-     price="299"
-     alt="frb"   
-     link="https://acscourses.netlify.app/frb"    
-     
-     />
 
 <Outlet
 image="/ielts.jpeg"
@@ -70,7 +61,7 @@ link="https://10msielts.netlify.app/"
      image="/ict.jpg"
      title="ICT DE-CODER 2025"
      classamount="60"
-     price="0.00"
+     price="FREE"
      alt="ict" 
      link="/freecourses/ict25"         
      />
@@ -97,7 +88,7 @@ link="https://10msielts.netlify.app/"
      image="/blackk.jpg"
      title="Black Hat Money making"
      classamount="50"
-     price="49"
+     price="50"
      alt="money"
      link="https://www.facebook.com/free.courses.vercel/"          
      />
