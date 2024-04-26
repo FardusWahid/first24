@@ -51,7 +51,7 @@ function App() {
       <h1 className='text-center font-bold mt-2 text-2xl'>Physics 2nd  </h1><br />
 
       {loading && <p className=" flex justify-center items-center text-white">Loading...</p>}
-      {error && <p>Error: {error}</p>}
+      {error && <p>Error: <span className='text-2xl font-sans font-bold'>Comming Soon</span> {error}</p>}
       {!loading && !error && (
         <div className="w-full h-full flex flex-wrap justify-center gap-5  ">
           {currentVideos.map(video => (
