@@ -9,12 +9,12 @@ export default function Home(){
     
     
      <Outlet     
-image="/code.png"
-title="Complete WebDev -Programming Hero"
-classamount="400"
-price="299"
-alt="code ur career"
-link="https://programmingherro.netlify.app"
+image="/frb.webp"
+title="HSC Final Revision 2024"
+classamount="150"
+price="FREE "
+alt="frb"
+link="freecourses/frb"
     />
     
      <Outlet     
@@ -24,6 +24,14 @@ classamount="140"
 price="499"
 alt="eng24"
 link="https://acsengineering.netlify.app/"
+    />
+         <Outlet     
+image="/code.png"
+title="Complete WebDev -Programming Hero"
+classamount="400"
+price="299"
+alt="code ur career"
+link="https://programmingherro.netlify.app"
     />
 
 <Outlet     
