@@ -58,7 +58,7 @@ bg-gradient-to-r from-[#62ff0007] to-[#18072d] ring-1 hover:ring-yellow-400 hove
             </div>
             <br />
  <section className="w-9/12 m-auto md:w-1/3">
- <p className="flex justify-center"> <a className="flex font-mono px-1 md:px-16 py-1 font-bold text-end rounded-md text-gray-900 bg-gradient-to-r from-blue-500 via-orange-700 to-pink-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 " href="https://tinyurl.com/frb244" target="_blank"> Lecture & Practice sheets &nbsp; <GrDocumentPdf size={22} />
+ <p className="flex justify-center"> <a className="text-sm flex font-mono px-4  md:px-16 py-1 font-bold rounded-md text-gray-900 bg-gradient-to-r from-blue-500 via-orange-700 to-pink-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 " href="https://tinyurl.com/frb244" target="_blank"> Lecture & Practice sheets <GrDocumentPdf size={22} />
  </a></p> 
  </section>
  <br /><br /><br /><br />
