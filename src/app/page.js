@@ -86,7 +86,7 @@ link="https://10msielts.netlify.app/"
      image="/eng23.jpg"
      title="ACS Engineering 2023"
      classamount="120"
-     price="199"
+     price="299"
      alt="23"
      link="https://www.facebook.com/free.courses.vercel/"         
           
