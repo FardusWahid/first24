@@ -7,7 +7,7 @@ import Navbar from "@/components/header";
 
 
 const API_KEY = 'AIzaSyBRxPt8NOlqBUKrNvUtHeuCjs9Z3MWUzrs';
-const playlistId = '';
+const playlistId = 'PL85MPqpSKUExnMkMmTwuXHH6eDL-9RD5B';
 const videosPerPage = 9; 
 
 function App() {
