@@ -16,6 +16,7 @@ price="FREE "
 alt="frb"
 link="freecourses/frb"
     />
+
     
      <Outlet     
 image="/eng24.jpg"
@@ -25,6 +26,15 @@ price="499"
 alt="eng24"
 link="https://acsengineering.netlify.app/"
     />
+
+<Outlet    
+     image="/ict.jpg"
+     title="ICT DE-CODER 2025"
+     classamount="60"
+     price="FREE"
+     alt="ict" 
+     link="/freecourses/ict25"         
+     />
          <Outlet     
 image="/code.png"
 title="Complete WebDev -Programming Hero"
@@ -33,27 +43,6 @@ price="299"
 alt="code ur career"
 link="https://programmingherro.netlify.app"
     />
-
-<Outlet     
-image="/gram.jpg"
-title="English Grammar Crash Course"
-classamount="100"
-price="150"
-alt="grammar"
-link="https://www.facebook.com/free.courses.vercel/"
-    />
-    
-
-
-<Outlet    
-     image="/med.jpg"
-     title="ACS Medical Private Batch 2024"
-     classamount="120"
-     price="699"
-     alt="med" 
-     link="/commingsoon"         
-     />
-
 
 
 <Outlet
@@ -65,14 +54,24 @@ alt="ielts"
 link="https://10msielts.netlify.app/"
 />
 
-    <Outlet    
-     image="/ict.jpg"
-     title="ICT DE-CODER 2025"
-     classamount="60"
-     price="FREE"
-     alt="ict" 
-     link="/freecourses/ict25"         
+
+    
+
+
+<Outlet    
+     image="/med.jpg"
+     title="ACS Medical Private Batch 2024"
+     classamount="120"
+     price="799"
+     alt="med" 
+     link="/commingsoon"         
      />
+
+
+
+
+
+
 
 <Outlet    
      image="/DU.jpg"
@@ -91,6 +90,15 @@ link="https://10msielts.netlify.app/"
      link="https://www.facebook.com/free.courses.vercel/"         
           
      />
+
+<Outlet     
+image="/gram.jpg"
+title="English Grammar Crash Course"
+classamount="100"
+price="150"
+alt="grammar"
+link="https://www.facebook.com/free.courses.vercel/"
+    />
 
     <Outlet    
      image="/blackk.jpg"
