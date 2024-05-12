@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/header";
 
 
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
       <meta name="keywords" content={metadata.keywords} />
       <title>{metadata.title}</title>
     </head>
+    
       <body className={inter.className}>{children}</body>
      
     </html>

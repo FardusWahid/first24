@@ -5,12 +5,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <>
-      <nav className="relative flex flex-wrap items-center justify-between py-3 bg-black mb-3">
+    <div>
+      <nav className="relative flex flex-wrap items-center justify-between py-2 bg-black mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="text-2xl md:text-4xl  font-extrabold tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-white font-sans text-shadow"
+              className="text-3xl md:text-4xl  font-extrabold tracking-wide leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-white font-sans text-shadow"
               href="/"
             >
               Apple<span className="tracking-normal text-[9px] italic">courses</span>
@@ -21,8 +21,8 @@ export default function Navbar({ fixed }) {
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
             <GiHamburgerMenu 
-            color="skyblue"
-            size={25} />
+            color="white"
+            size={27} />
 
             </button>
           </div>
@@ -37,17 +37,17 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/freecourses"
+                  href="https://www.facebook.com/groups/1451996508764221" target="_blank"
                 >
-                <span className="ml-2 tracking-wider">free</span>
+                <span className="ml-2 tracking-wider">Offers</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 hover:bg-red-950"
-                  href="/premium"
+                  href="https://www.facebook.com/groups/1451996508764221"
                 >
-                  <span className="ml-2 tracking-wider">All courses</span>
+                  <span className="ml-2 tracking-wider">facebook group</span>
                 </a>
               </li>
               <li className="nav-item">
@@ -55,13 +55,13 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="https://www.facebook.com/free.courses.vercel/"
                 >
-                <span className="ml-2 tracking-wider">support</span>
+                <span className="ml-2 tracking-wider">Facebook page</span>
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
