@@ -21,8 +21,8 @@ export default function Home(props){
     <Try/>
     
 <h1 className="text-center md:hidden mt-10 text-cyan-200 text-lg font-mono italic font-extrabold">Categories..</h1>
-    <div className=" flex flex-wrap gap-5 mt-2 md:w-[500px] md:mx-10 md:gap-10 md:mt-5">
-    <Topic link="/addd.jpg"
+    <div className=" flex flex-wrap mt-2 md:w-[500px] md:mx-10 md:gap-10 md:mt-5">
+    <Topic link="/add2.webp"
           title="ADMISSION"
           route="/admission"/>
     <Topic link="https://rootsedulive.com/static/media/school.9ce23c5d.svg"

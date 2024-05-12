@@ -18,7 +18,7 @@ export default function Pam() {
 
   
     const copyToClipboard = () => {
-      navigator.clipboard.writeText("I wish to proceed payment of 399")
+      navigator.clipboard.writeText("I wish to proceed payment of 499")
         .then(() => toast.success('Text copied to clipboard'))
         .catch(err => console.error('Error copying text: ', err));
     };
@@ -67,7 +67,7 @@ export default function Pam() {
 </section>
 
 <div className="flex justify-center w-full">
-  <button className="py-3 flex justify-center font-mono tracking-tighter font-bold text-[16px] lg:text-[20px] items-center" onClick={copyToClipboard}>I am ready to pay 399 with Bkash&nbsp;<FaCopy size={25} color="gray" /></button>
+  <button className="py-3 flex justify-center font-mono tracking-tighter font-bold text-[16px] lg:text-[20px] items-center" onClick={copyToClipboard}>I am ready to pay 499 with Bkash&nbsp;<FaCopy size={25} color="gray" /></button>
   </div>
 
 <p className="text-shadow text-center text-[12px] mt-4 text-white font-sans tracking-widest ">copy & send it to inbox now</p>
