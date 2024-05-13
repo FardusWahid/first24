@@ -1,5 +1,6 @@
 import Navbar from "@/components/header";
 import { GrDocumentPdf } from "react-icons/gr";
+import { FaPenToSquare } from "react-icons/fa6";
 
 
 import { GrNext } from "react-icons/gr";
@@ -56,11 +57,24 @@ bg-gradient-to-r from-[#62ff0007] to-[#18072d] ring-1 hover:ring-yellow-400 hove
        </section>
 
             </div>
+
+            <section className="w-9/12 mt-4 m-auto flex md:w-1/4 p-2 justify-center
+bg-gradient-to-r from-[#3d7f25af] to-[#05577c] ring-1 hover:ring-yellow-400 hover:tracking-wider rounded-lg shadow-lg shadow-blue-950 transition ease-in duration-300">
+         <a className="flex gap-4 text-gray-200 hover:text-yellow-200 active:text-yellow-200 active:tracking-widest"
+          href="/freecourses/frb/final-exam"><h1 className="font-mono font-extrabold ">Final Exam</h1> <FaPenToSquare size={23}  /></a>
+       </section>
+
+
             <br />
  <section className="w-9/12 m-auto md:w-1/3">
  <p className="flex justify-center"> <a className="text-sm flex font-mono px-4  md:px-16 py-1 font-bold rounded-md text-gray-900 bg-gradient-to-r from-blue-500 via-orange-700 to-pink-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-lime-300 " href="https://tinyurl.com/frb244" target="_blank"> Lecture & Practice sheets <GrDocumentPdf size={22} />
  </a></p> 
  </section>
+
+
+       
+       
+       <br /><br />
 
 
         </div>
