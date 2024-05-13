@@ -48,7 +48,7 @@ export default function Home(props){
      
      <Outlet     
 image="/ict26.webp"
-title="ACS Engineering Private Batch 2024"
+title="ACS ICT DeCoder 2026"
 classamount="140"
 price="199"
 alt="eng24"
