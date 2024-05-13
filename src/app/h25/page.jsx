@@ -32,7 +32,7 @@ title="ACS Chemistry 1st & 2nd Paper [6 Cycles] "
 classamount="84"
 price="499"
 alt="che"
-link="/payment"
+link="https://chemistry25.vercel.app/"
 />
 
 <Outlet    

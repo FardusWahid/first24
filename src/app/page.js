@@ -55,6 +55,16 @@ alt="eng24"
 link="/payment"
     />
 
+
+<Outlet
+image="/chee1.jpg"
+title="ACS Chemistry 1st & 2nd Paper [6 Cycles] "
+classamount="120"
+price="499"
+alt="che"
+link="https://chemistry25.vercel.app/"
+/>
+
      <Outlet     
 image="/frb.webp"
 title="HSC Final Revision 2024"
@@ -79,7 +89,7 @@ title="ACS-25 Math 1st Paper ALL Cycle "
 classamount="80"
 price="399"
 alt="math"
-link="https://10msielts.netlify.app/"
+link="/payment"
 />
 
 <Outlet    
@@ -98,7 +108,7 @@ title="ACS-25 Physics 1st Paper ALL Cycle "
 classamount="80"
 price="499"
 alt="physics"
-link="https://10msielts.netlify.app/"
+link="/payment"
 />
 
          <Outlet     
