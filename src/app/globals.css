@@ -44,7 +44,7 @@ body{
   }
   .no{
     background: url("/modern.webp") no-repeat center center/cover;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .sha{
       -webkit-box-shadow: 5px 5px 13px #1b263c, -5px -5px 13px #6b98f0;

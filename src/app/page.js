@@ -21,7 +21,7 @@ export default function Home(props){
     <Try/>
     
 <h1 className="text-center md:hidden mt-10 text-cyan-200 text-lg font-mono italic font-extrabold">Categories..</h1>
-    <div className=" flex flex-wrap mt-2 md:w-[500px] md:mx-10 md:gap-10 md:mt-5">
+    <div className=" flex flex-wrap mt-2 md:w-[500px] md:h-[350px] md:mx-10 md:gap-10 md:mt-5">
     <Topic link="/add2.webp"
           title="ADMISSION"
           route="/admission"/>
@@ -50,9 +50,38 @@ export default function Home(props){
 image="/ict26.webp"
 title="ACS ICT DeCoder 2026"
 classamount="140"
-price="199"
-alt="eng24"
-link="/payment"
+price="299"
+alt="ict26"
+link="/payment26"
+    />
+
+<Outlet     
+image="/c1.jpg"
+title="ACS Math Cycle 1"
+classamount="60"
+price="299"
+alt="math1"
+link="/payment26"
+    />
+
+<Outlet     
+image="/pc1.jpg"
+title="ACS Physics Cycle 1"
+classamount="55"
+price="299"
+alt="phy1"
+link="/payment26"
+    />
+
+
+
+<Outlet     
+image="/cc1.jpg"
+title="ACS Chemistry Cycle 1"
+classamount="57"
+price="299"
+alt="phy1"
+link="/payment26"
     />
 
 
@@ -87,7 +116,7 @@ link="https://acsengineering.netlify.app/"
 image="/HSC-25.jpg"
 title="ACS-25 Math 1st Paper ALL Cycle "
 classamount="80"
-price="399"
+price="499"
 alt="math"
 link="/payment"
 />
