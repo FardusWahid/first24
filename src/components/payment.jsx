@@ -34,7 +34,9 @@ export default function Pam() {
 
  <br />
 
-                   
+   <div className="flex justify-end mx-7 md:mx-12">
+    <h1 className="font-sans my-3 md:mt-0 md:mb-3 font-bold">Paid already? <Link className="bg-yellow-500 px-2 py-1 rounded-md text-black font-sans font-extrabold shadow-inner shadow-yellow-300 active:tracking-tight" href="https://apple25.vercel.app">Login</Link></h1>
+    </div>                
 
 <div>
   <h1 className="text-3xl font-extrabold italic text-center pt-1 lg:pt-0 ">Payment Getway</h1>
@@ -44,7 +46,7 @@ export default function Pam() {
 
 
 
-<section className="flex flex-wrap lg:flex-row-reverse lg:m-10 lg:justify-between">
+<section className="flex flex-wrap md:flex-row-reverse lg:m-10 md:justify-between">
 
 
 
@@ -58,7 +60,7 @@ export default function Pam() {
 
 
 <div className="flex justify-center mt-5 lg:mt-0">
-  <main className=" checkout w-11/12 justify-center lg:w-[550px]">
+  <main className=" checkout  w-11/12 justify-center md:w-[550px]">
 
 <section className="p-2 w-full ">
   <img src="./wallpaper.webp" alt="billing"
@@ -77,7 +79,7 @@ export default function Pam() {
 </div>
 
 
-<div className="mt-16 m-3 lg:w-[720px] lg:mt-5">
+<div className="mt-16 m-3 w-11/12 md:w-[590px] lg:mt-5">
   <h1 className="text-[24px] font-bold font-sans">Description:</h1>
  
  <p className="font-bold text-[#a3fda1]">&nbsp;&nbsp;To Continue this course</p>  
