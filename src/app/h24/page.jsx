@@ -19,6 +19,15 @@ link="freecourses/frb"
     />
 
 <Outlet     
+image="/dar.jpg"
+title="Darpan Academy OneShots full Course"
+classamount="97"
+price="299 "
+alt="dar"
+link="/pay299"
+    />
+
+<Outlet     
 image="/eng24.jpg"
 title="ACS Engineering Private Batch 2024"
 classamount="140"

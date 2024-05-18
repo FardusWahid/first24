@@ -45,7 +45,17 @@ export default function Home(props){
  
 <p className="bg-pink-900 shadow-inner shadow-pink-500 w-[120px] mx-4 md:mx-10 py-1 px-2 rounded-xl flex justify-center">Latest add<GoDotFill size={23} color="red" /></p>
      <section className="flex flex-wrap gap-4 m-1 mt-0 md:m-10 justify-between">
-     
+
+
+     <Outlet     
+image="/dar.jpg"
+title="Darpan Academy OneShots full Course"
+classamount="97"
+price="299 "
+alt="dar"
+link="/pay299"
+    />
+
      <Outlet     
 image="/ict26.webp"
 title="ACS ICT DeCoder 2026"
