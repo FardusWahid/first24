@@ -15,7 +15,7 @@ title="ACS Physics 1st & 2nd Paper [6 Cycles] "
 classamount="84"
 price="499"
 alt="py"
-link="/payment"
+link="/pay25"
 />
 
 <Outlet
@@ -24,7 +24,7 @@ title="ACS Math 1st & 2nd Paper [6 Cycles] "
 classamount="84"
 price="499"
 alt="math"
-link="/payment"
+link="/pay25"
 />
 <Outlet
 image="/chee1.jpg"
@@ -32,7 +32,7 @@ title="ACS Chemistry 1st & 2nd Paper [6 Cycles] "
 classamount="84"
 price="499"
 alt="che"
-link="https://chemistry25.vercel.app/"
+link="/pay25"
 />
 
 <Outlet    

@@ -13,7 +13,7 @@ import Navbar from "./header";
 
 
 
-export default function Pam() {
+export default function H25() {
 
 
   
@@ -35,7 +35,7 @@ export default function Pam() {
  <br />
 
    <div className="flex justify-end mx-7 md:mx-12">
-    <h1 className="font-sans my-3 md:mt-0 md:mb-3 font-bold">Paid already? <Link className="bg-yellow-500 px-2 py-1 rounded-md text-black font-sans font-extrabold shadow-inner shadow-yellow-300 active:tracking-tight" href="https://apple24.vercel.app/">Login</Link></h1>
+    <h1 className="font-sans my-3 md:mt-0 md:mb-3 font-bold">Paid already? <Link className="bg-yellow-500 px-2 py-1 rounded-md text-black font-sans font-extrabold shadow-inner shadow-yellow-300 active:tracking-tight" href="https://apple25.vercel.app/">Login</Link></h1>
     </div>                
 
 <div>

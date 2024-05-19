@@ -101,7 +101,7 @@ title="ACS Chemistry 1st & 2nd Paper [6 Cycles] "
 classamount="120"
 price="499"
 alt="che"
-link="https://chemistry25.vercel.app/"
+link="/pay25"
 />
 
      <Outlet     
@@ -120,7 +120,7 @@ title="ACS Engineering Private Batch 2024"
 classamount="140"
 price="499"
 alt="eng24"
-link="https://acsengineering.netlify.app/"
+link="/payment"
     />
     <Outlet
 image="/HSC-25.jpg"
@@ -128,7 +128,7 @@ title="ACS-25 Math 1st Paper ALL Cycle "
 classamount="80"
 price="499"
 alt="math"
-link="/payment"
+link="/pay25"
 />
 
 <Outlet    
@@ -147,7 +147,7 @@ title="ACS-25 Physics 1st Paper ALL Cycle "
 classamount="80"
 price="499"
 alt="physics"
-link="/payment"
+link="/pay25"
 />
 
          <Outlet     
