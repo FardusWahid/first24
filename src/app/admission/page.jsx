@@ -17,7 +17,7 @@ title="ACS Engineering Private Batch 2024"
 classamount="140"
 price="499"
 alt="eng24"
-link="https://acsengineering.netlify.app/"
+link="/payment"
     />
 <Outlet    
      image="/med.jpg"
