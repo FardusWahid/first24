@@ -49,7 +49,7 @@ function Neeo(props) {
 <Navbar/>
       <h1 className='text-center font-bold mt-2 text-2xl'>{props.chapter} </h1><br />
 
-      {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-black">Loading...</p>}
+      {loading && <p className=" flex justify-center items-center font-extrabold tracking-tight text-lg text-white">Loading...</p>}
       {error && <p>Error: {error}</p>}
       {!loading && !error && (
         <div className="w-full h-full flex flex-wrap justify-center gap-5  ">
