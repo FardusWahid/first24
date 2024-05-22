@@ -69,7 +69,7 @@ export default function H25() {
 </section>
 
 <div className="flex justify-center w-full">
-  <button className="py-3 flex justify-center font-mono tracking-tighter font-bold text-[16px] lg:text-[20px] items-center" onClick={copyToClipboard}>I am ready to pay 499 with Bkash&nbsp;<FaCopy size={25} color="gray" /></button>
+  <button className="py-3 flex justify-center bg-black font-mono tracking-tighter font-bold text-[16px] lg:text-[20px] items-center" onClick={copyToClipboard}>I am ready to pay 499 with Bkash&nbsp;<FaCopy size={25} color="gray" /></button>
   </div>
 
 <p className="text-shadow text-center text-[12px] mt-4 text-white font-sans tracking-widest ">copy & send it to inbox now</p>
