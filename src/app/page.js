@@ -4,6 +4,7 @@ import Link from "next/link";
 import { GoDotFill } from "react-icons/go";
 import Topic from "@/components/topic";
 import Try from "@/components/try";
+import Carousel from "@/components/Carousel";
 
 
 
@@ -17,27 +18,45 @@ export default function Home(props){
     <div>
      <Navbar/>
 
-     <div className="md:flex md:flex-row-reverse m-1">
-    <Try/>
+   
+     
+
+     <div className="md:flex md:flex-row-reverse justify-between  w-full ">
+
+
+     <div className="bg-gray-950 text-white flex md:w-1/2 lg:w-[600px]  justify-center">
+            <Carousel />
+        </div>
     
-<h1 className="text-center md:hidden mt-10 text-cyan-200 text-lg font-mono italic font-extrabold">Categories..</h1>
-    <div className=" flex flex-wrap mt-2 md:w-[500px] md:h-[350px] md:mx-10 md:gap-10 md:mt-5">
+    
+<h1 className="text-center md:hidden  mt-5 text-yellow-300 text-lg md:text-[22px] font-[fantasy] tracking-wider  font-extrabold"> Select Category</h1>
+    <div className="w-11/12 m-auto  md:w-1/2 lg:w-[550px] md:mx-3 flex flex-wrap justify-between mt-0  ">
     <Topic link="/add2.webp"
           title="ADMISSION"
           route="/admission"/>
-    <Topic link="https://rootsedulive.com/static/media/school.9ce23c5d.svg"
-          title="HSC 2024"
-          route="/h24"/>
-    <Topic link="https://rootsedulive.com/static/media/backpack.ce6cf69a.svg"
-          title="HSC 2026"
+
+<Topic link="https://rootsedulive.com/static/media/backpack.ce6cf69a.svg"
+          title="HSC- 2026"
           route="/h26"
           />
-    <Topic link="/books.png"
-          title="HSC 2025"
+
+<Topic link="/books.png"
+          title="HSC- 2025"
           route="/h25" />
+
+
+    <Topic link="https://rootsedulive.com/static/media/school.9ce23c5d.svg"
+          title="HSC- 2024"
+          route="/h24"/>
+
+ 
     <Topic link="/skill.png"
           title="Skill Dev.."
           route="/skill" />
+
+<Topic link="/mone.jpg"
+          title="Earn"
+          route="/make-money" />
   </div>
   </div>
 

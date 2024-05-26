@@ -10,6 +10,15 @@ export default function  Name(props){
 <section className="flex flex-wrap gap-4 m-1 md:m-10 justify-between">
 
 <Outlet     
+image="/eng24.jpg"
+title="ACS Engineering Private Batch 2024"
+classamount="140"
+price="499"
+alt="eng24"
+link="/payment"
+    />
+
+<Outlet     
 image="/frb.webp"
 title="HSC Final Revision 2024"
 classamount="150"
@@ -27,14 +36,7 @@ alt="dar"
 link="/pay299"
     />
 
-<Outlet     
-image="/eng24.jpg"
-title="ACS Engineering Private Batch 2024"
-classamount="140"
-price="499"
-alt="eng24"
-link="/payment"
-    />
+
 <Outlet    
      image="/med.jpg"
      title="ACS Medical Private Batch 2024"

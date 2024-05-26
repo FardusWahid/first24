@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Topic(props){
 
     return(
-        <div className="w-[100px] h-[110px] mt-2 mx-2 bg-gray-950 sha2 hover:bg-slate-900  rounded-lg p-2 grid items-center active:tracking-tighter   justify-center">
-          <Link href={props.route}>  <Image src={props.link} width={70} height={70} className=""/>
-            <h1 className="text-md active:text-yellow-200 active:tracking-tighter font-extrabold">{props.title}</h1></Link>
+        <div className="w-[130px] h-[120px] m-2 bg-black  sha2 p-2   active:tracking-tight hover:border-2 border-yellow-600  transition-all ease-in duration-100 ">
+          <Link href={props.route}>  <Image src={props.link} width={130} height={70} className="h-[78px] "/>
+            <h1 className="text-[19px] text-center text-cyan-100  active:tracking-tight font-sans  font-extrabold active:text-yellow-500 ">{props.title}</h1></Link>
 
         </div>
     )
