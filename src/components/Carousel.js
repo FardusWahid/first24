@@ -9,38 +9,28 @@ import Image from 'next/image';
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    <Link href="/h24" onDragStart={handleDragStart} passHref>
-        <Image src="/eng24.jpg" width={400} height={200} className="w-full rounded-sm h-auto " />
+    <Link href="/h24" onDragStart={handleDragStart} passHref key="h24-499">
+        <Image src="/eng24.jpg" width={400} height={200} className="w-full rounded-sm h-auto" />
         <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Enroll For 499</h1>
     </Link>,
-    <Link href="/h26" onDragStart={handleDragStart} passHref>
-        <Image src="/pc1.jpg" width={400} height={200} className="w-full h-auto rounded-sm " />
+    <Link href="/h26" onDragStart={handleDragStart} passHref key="h26-299">
+        <Image src="/pc1.jpg" width={400} height={200} className="w-full h-auto rounded-sm" />
         <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Enroll For 299</h1>
-
     </Link>,
-    <Link href="/h24" onDragStart={handleDragStart} passHref>
-      <Image src="/med.jpg" width={400} height={200} className="w-full h-auto rounded-sm " />
-      <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Enroll For 499</h1>
-
-    
+    <Link href="/h24" onDragStart={handleDragStart} passHref key="h24-499-med">
+        <Image src="/med.jpg" width={400} height={200} className="w-full h-auto rounded-sm" />
+        <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Enroll For 499</h1>
     </Link>,
-
-
-<Link href="/h25" onDragStart={handleDragStart} passHref>
-      <Image src="/HSC-25.jpg" width={390} height={200} className="w-full h-auto rounded-sm " />
-      <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Enroll For 499</h1>
-
-    
+    <Link href="/h25" onDragStart={handleDragStart} passHref key="h25-499">
+        <Image src="/HSC-25.jpg" width={390} height={200} className="w-full h-auto rounded-sm" />
+        <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Enroll For 499</h1>
     </Link>,
-
-
-<Link href="/make-money" onDragStart={handleDragStart} passHref>
-      <Image src="/makemo.webp" width={390} height={200} className="w-full h-auto rounded-sm " />
-      <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Make money with us</h1>
-
-    
+    <Link href="/make-money" onDragStart={handleDragStart} passHref key="make-money">
+        <Image src="/makemo.webp" width={390} height={200} className="w-full h-auto rounded-sm" />
+        <h1 className='text-center bg-purple-900 rounded-sm py-2 font-extrabold font-sans tracking-wider text-lg'>Make money with us</h1>
     </Link>,
 ];
+
 
 const Carousel = () => {
     return (
