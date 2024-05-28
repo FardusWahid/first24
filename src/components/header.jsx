@@ -37,9 +37,9 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="https://www.facebook.com/groups/1451996508764221" target="_blank"
+                  href="/freecourses"
                 >
-                <span className="ml-2 tracking-wider">Offers</span>
+                <span className="ml-2 tracking-wider">free courses</span>
                 </a>
               </li>
               <li className="nav-item">

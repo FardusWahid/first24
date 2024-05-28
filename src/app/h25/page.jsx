@@ -10,7 +10,7 @@ export default function  Name(props){
 <section className="flex flex-wrap gap-4 m-1 md:m-10 justify-between">
 
 <Outlet
-image="/HSC-25.jpg"
+image="/HSC-25.webp"
 title="ACS Physics 1st & 2nd Paper [6 Cycles] "
 classamount="84"
 price="499"

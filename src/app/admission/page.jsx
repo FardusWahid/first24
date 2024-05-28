@@ -20,7 +20,7 @@ alt="eng24"
 link="/payment"
     />
 <Outlet    
-     image="/med.jpg"
+     image="/med.webp"
      title="ACS Medical Private Batch 2024"
      classamount="120"
      price="499"

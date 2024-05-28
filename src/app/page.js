@@ -3,8 +3,9 @@ import Outlet from "@/components/outlet"
 import Link from "next/link";
 import { GoDotFill } from "react-icons/go";
 import Topic from "@/components/topic";
-import Try from "@/components/try";
 import Carousel from "@/components/Carousel";
+import { IoChevronForwardCircleSharp } from "react-icons/io5";
+
 
 
 
@@ -24,7 +25,7 @@ export default function Home(props){
      <div className="md:flex md:flex-row-reverse justify-between  w-full ">
 
 
-     <div className="bg-gray-950 text-white flex md:w-1/2 lg:w-[600px]  justify-center">
+     <div className="w-full bg-black  text-white flex md:w-1/2 lg:w-[600px]  justify-center">
             <Carousel />
         </div>
     
@@ -58,6 +59,23 @@ export default function Home(props){
           title="Earn"
           route="/make-money" />
   </div>
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+  </div>
+
+  <div className="mt-7 flex justify-center ">
+  <Link className=" active:tracking-widest shadow-inner shadow-white flex mb-1 w-[320px]  justify-center rounded-lg  tracking-wider bg-blue-200 hover:bg-blue-300  text-xl font-extrabold font-sans px-6  py-2 md:hidden text-black" href="/freecourses">Free Courses &nbsp;<IoChevronForwardCircleSharp size={31} />
+
+</Link>    
   </div>
 
 <br/><br/>
@@ -105,7 +123,7 @@ link="/payment26"
 
 
 <Outlet     
-image="/cc1.jpg"
+image="/cc1.webp"
 title="ACS Chemistry Cycle 1"
 classamount="57"
 price="299"
@@ -134,7 +152,7 @@ link="freecourses/frb"
 
     
      <Outlet     
-image="/eng24.jpg"
+image="/eng24.webp"
 title="ACS Engineering Private Batch 2024"
 classamount="140"
 price="499"
@@ -142,7 +160,7 @@ alt="eng24"
 link="/payment"
     />
     <Outlet
-image="/HSC-25.jpg"
+image="/HSC-25.webp"
 title="ACS-25 Math 1st Paper ALL Cycle "
 classamount="80"
 price="499"
@@ -161,7 +179,7 @@ link="/pay25"
 
 
 <Outlet
-image="/HSC-25.jpg"
+image="/HSC-25.webp"
 title="ACS-25 Physics 1st Paper ALL Cycle "
 classamount="80"
 price="499"
@@ -186,7 +204,7 @@ link="https://programmingherro.netlify.app"
 
 
 <Outlet    
-     image="/med.jpg"
+     image="/med.webp"
      title="ACS Medical Private Batch 2024"
      classamount="120"
      price="499"

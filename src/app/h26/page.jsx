@@ -41,7 +41,7 @@ link="/payment26"
 
 
 <Outlet     
-image="/cc1.jpg"
+image="/cc1.webp"
 title="ACS Chemistry Cycle 1"
 classamount="57"
 price="299"
