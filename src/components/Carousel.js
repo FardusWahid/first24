@@ -39,7 +39,7 @@ const Carousel = () => {
                 mouseTracking
                 items={items}
                 autoPlay
-                autoPlayInterval={1500}
+                autoPlayInterval={3500}
                 infinite
                 disableDotsControls
                 renderPrevButton={({ isDisabled }) => (
