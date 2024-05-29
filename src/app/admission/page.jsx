@@ -12,7 +12,7 @@ export default function  Name(props){
 
 
 <Outlet     
-image="/eng24.jpg"
+image="/eng24.webp"
 title="ACS Engineering Private Batch 2024"
 classamount="140"
 price="499"

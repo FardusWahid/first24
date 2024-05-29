@@ -42,10 +42,7 @@ body{
                  margin: auto;
                  width: 90%;
   }
-  .no{
-    background: url("/modern.webp") no-repeat center center/cover;
-    border-radius: 5px;
-  }
+
   .sha{
       -webkit-box-shadow: 5px 5px 13px #1b263c, -5px -5px 13px #6b98f0;
     box-shadow: 5px 5px 13px #0c97bd, -5px -5px 13px #fbf4f3;
@@ -64,7 +61,6 @@ background: #000000;
 box-shadow: 5px 5px 14px #0a025b, -5px -5px 14px #3f055f;
 }
 .checkout{
-  -webkit-border-radius: 0px;
 border-radius: 0px;
 background: #000000;
 -webkit-box-shadow: 5px 5px 7px #273e70, -5px -5px 7px #355498;

@@ -36,22 +36,15 @@ const Carousel = () => {
     return (
         <div className="w-11/12   md:w-full  lg:w-[550px]  gap-2  m-auto mt-0 mx-5  ">
             <AliceCarousel
+            animationDuration={150}
                 mouseTracking
                 items={items}
                 autoPlay
-                autoPlayInterval={3500}
+                autoPlayInterval={2500}
                 infinite
                 disableDotsControls
-                renderPrevButton={({ isDisabled }) => (
-                    <button className={` bg-purple-950 rounded-lg shadow-inner shadow-purple-800 font-bold  mt-3 md:mt-6 md:mx-2 mx-1 px-3 py-1 left-0 ${isDisabled ? 'opacity-50 cursor-not-allowed' : ''}`}>
-                        &lt;
-                    </button>
-                )}
-                renderNextButton={({ isDisabled }) => (
-                    <button className={`bg-purple-950 rounded-lg  shadow-inner shadow-purple-800 font-bold px-3 py-1 mt-3 md:mt-6 md:mx-2 mx-1 right-0 ${isDisabled ? 'opacity-50 cursor-not-allowed' : ''}`}>
-                        &gt;
-                    </button>
-                )}
+                disableButtonsControls
+                
             />
         </div>
     );

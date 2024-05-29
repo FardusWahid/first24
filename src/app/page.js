@@ -24,7 +24,7 @@ export default function Home(props){
 
      <div className="md:flex md:flex-row-reverse justify-between  w-full ">
 
-
+     
      <div className="w-full bg-black  text-white flex md:w-1/2 lg:w-[600px]  justify-center">
             <Carousel />
         </div>
